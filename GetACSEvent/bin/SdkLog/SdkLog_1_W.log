@@ -1,0 +1,617 @@
+[2025-08-26 15:29:13.963][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2025-08-26 15:29:13.963][INF] The COM:Core ver is 6.1.9.48, 2023_04_10. Async:1.
+[2025-08-26 15:29:13.963][INF] This HCNetSDK ver is 6.1.9.48 Ver 2023_04_10.
+[2025-08-26 15:29:34.360][INF] Login dev 192.168.0.164:8000.
+[2025-08-26 15:29:34.360][INF] dwTotalNum[2048]
+[2025-08-26 15:29:34.388][INF] Private connect 192.168.0.164:8000 sock=2216 this=0xa5316494 cmd=0x10000 port=3621
+[2025-08-26 15:29:34.388][INF] LogonDev1 in[192.168.0.164:8000]
+[2025-08-26 15:29:34.390][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/libcrypto-1_1-x64.dll], hHandleRet[1518927872]
+[2025-08-26 15:29:34.390][DBG] Load [libcrypto-1_1-x64.dll] SUCC, Real Path[E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\bin\libcrypto-1_1-x64.dll]
+[2025-08-26 15:29:34.391][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/libssl-1_1-x64.dll], hHandleRet[1518010368]
+[2025-08-26 15:29:34.391][DBG] Load [libssl-1_1-x64.dll] SUCC, Real Path[E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\bin\libssl-1_1-x64.dll]
+[2025-08-26 15:29:34.392][INF] SSLTRANSAPI::IsAllAPILoaded, SSL_library_init Unload
+[2025-08-26 15:29:34.392][INF] OpenSSL, Not All Function Loaded!
+[2025-08-26 15:29:34.392][INF] SSLTRANSAPI::PrintVersion, OpenSSL version info [OpenSSL 1.1.1l  24 Aug 2021]
+[2025-08-26 15:29:34.392][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[6], m_fnTLSServerMethod
+[2025-08-26 15:29:34.394][ERR] CSSLTrans::SSLTrans_CTX_Load_CA, invalid path[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/cert/\]
+[2025-08-26 15:29:38.512][DBG] CComBase::Load, Load szDllPath[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/HCNetSDKCom/HCVoiceTalk.dll] SUCC
+[2025-08-26 15:29:38.514][INF] AbilityAnalyze---Init-- start
+[2025-08-26 15:29:38.536][INF] The COM:VoiceTalk ver is 6.1.9.48, 2023_04_10.
+[2025-08-26 15:29:38.547][DBG] CComBase::Load, Load szDllPath[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/HCNetSDKCom/HCGeneralCfgMgr.dll] SUCC
+[2025-08-26 15:29:38.551][INF] The COM:HCGeneralCfgMgr ver is 6.1.9.48, 2023_04_10.
+[2025-08-26 15:29:38.560][DBG] CComBase::Load, Load szDllPath[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/HCNetSDKCom/HCPlayBack.dll] SUCC
+[2025-08-26 15:29:38.561][INF] The COM:HCPlayback ver is 6.1.9.48, 2023_04_10.
+[2025-08-26 15:29:38.570][DBG] CComBase::Load, Load szDllPath[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/HCNetSDKCom/HCIndustry.dll] SUCC
+[2025-08-26 15:29:38.571][INF] The COM:HCIndustry ver is 6.1.9.48, 2023_04_10.
+[2025-08-26 15:29:38.579][DBG] CComBase::Load, Load szDllPath[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/HCNetSDKCom/HCDisplay.dll] SUCC
+[2025-08-26 15:29:38.580][INF] The COM:HCDisplay ver is 6.1.9.48, 2023_04_10.
+[2025-08-26 15:29:38.585][DBG] CComBase::Load, Load szDllPath[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/HCNetSDKCom/HCPreview.dll] SUCC
+[2025-08-26 15:29:38.585][INF] The COM:Preview ver is 6.1.9.48, 2023_04_10.
+[2025-08-26 15:29:38.589][DBG] CComBase::Load, Load szDllPath[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/HCNetSDKCom/HCAlarm.dll] SUCC
+[2025-08-26 15:29:38.589][INF] The COM:HCAlarm ver is 6.1.9.48, 2023_04_10.
+[2025-08-26 15:29:38.592][DBG] CLongConfigSessionEx::start succ [userid:0][command:2514]
+[2025-08-26 15:29:38.612][INF] Private connect 192.168.0.164:8000 sock=2504 this=0xa5316494 cmd=0x1120a0 port=3635
+[2025-08-26 15:29:38.684][DBG] callback [0]data len[4].
+[2025-08-26 15:29:38.684][DBG] callback status[1000].
+[2025-08-26 15:29:38.685][INF] [CLongLinkCtrlPrivate::RecvThreadFunc] RecvThreadFunc EXIT, this=0xa9227044
+[2025-08-26 15:29:38.858][INF] [0]CLongConfigSession::Stop in
+[2025-08-26 15:29:49.659][DBG] CLongConfigSessionEx::start succ [userid:0][command:2514]
+[2025-08-26 15:29:49.686][INF] Private connect 192.168.0.164:8000 sock=2496 this=0xa5316494 cmd=0x1120a0 port=3649
+[2025-08-26 15:29:49.759][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.759][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.765][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.765][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.770][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.770][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.777][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.777][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.782][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.782][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.788][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.788][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.792][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.792][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.797][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.797][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.801][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.801][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.811][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.811][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.817][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.817][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.824][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.824][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.829][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.829][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.837][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.837][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.841][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.841][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.860][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.860][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.863][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.863][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.868][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.868][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.873][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.873][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.877][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.877][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.881][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.881][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.886][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.886][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.891][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.891][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.896][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.896][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.900][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.900][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.906][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.906][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.911][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.911][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.915][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.915][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.921][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.921][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.928][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.928][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.935][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.935][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.941][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.941][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.946][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.946][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.953][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.953][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.961][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.961][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.965][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.965][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.972][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.972][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.977][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.977][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.982][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.982][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.987][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.987][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:49.998][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:49.998][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.013][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.013][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.020][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.020][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.029][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.029][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.036][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.036][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.040][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.040][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.045][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.045][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.051][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.051][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.063][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.063][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.068][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.068][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.077][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.077][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.083][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.083][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.089][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.089][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.095][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.095][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.100][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.100][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.106][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.106][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.110][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.110][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.114][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.114][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.121][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.121][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.129][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.129][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.137][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.137][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.141][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.141][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.148][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.148][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.152][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.152][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.157][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.157][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.165][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.165][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.169][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.169][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.177][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.177][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.182][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.182][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.192][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.192][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.198][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.198][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.202][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.202][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.209][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.209][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.213][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.213][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.219][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.219][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.227][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.227][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.234][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.234][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.239][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.239][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.244][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.244][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.249][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.249][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.259][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.259][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.263][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.263][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.267][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.267][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.278][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.278][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.285][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.285][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.291][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.291][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.298][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.298][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.306][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.306][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.309][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.309][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.314][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.314][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.324][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.324][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.332][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.332][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.341][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.341][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.346][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.346][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.350][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.350][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.353][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.353][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.358][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.358][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.367][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.367][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.372][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.372][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.377][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.377][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.387][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.387][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.395][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.395][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.401][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.401][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.409][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.409][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.416][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.416][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.426][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.426][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.435][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.435][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.441][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.441][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.446][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.446][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.452][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.452][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.458][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.458][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.473][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.473][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.479][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.479][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.485][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.485][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.490][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.490][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.496][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.496][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.501][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.501][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.506][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.506][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.511][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.511][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.517][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.517][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.521][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.521][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.536][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.536][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.541][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.541][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.552][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.552][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.557][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.557][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.570][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.570][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.575][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.575][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.581][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.581][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.585][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.585][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.593][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.593][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.601][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.601][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.607][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.607][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.611][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.611][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.616][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.616][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.620][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.620][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.632][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.632][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.638][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.638][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.641][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.641][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.651][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.651][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.657][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.657][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.664][DBG] callback [2]data len[2097664].
+[2025-08-26 15:29:50.664][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:29:50.669][DBG] callback [0]data len[4].
+[2025-08-26 15:29:50.669][DBG] callback status[1000].
+[2025-08-26 15:29:50.669][INF] [CLongLinkCtrlPrivate::RecvThreadFunc] RecvThreadFunc EXIT, this=0xa9227044
+[2025-08-26 15:29:50.781][INF] [1]CLongConfigSession::Stop in
+[2025-08-26 15:30:58.998][DBG] CLongConfigSessionEx::start succ [userid:0][command:2514]
+[2025-08-26 15:30:59.013][INF] Private connect 192.168.0.164:8000 sock=2556 this=0xa5316494 cmd=0x1120a0 port=13908
+[2025-08-26 15:30:59.085][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.085][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.092][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.092][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.098][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.098][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.103][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.103][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.108][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.108][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.117][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.117][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.132][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.132][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.139][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.139][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.147][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.147][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.151][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.151][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.157][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.157][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.161][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.161][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.167][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.167][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.178][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.178][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.185][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.185][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.193][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.193][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.201][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.201][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.209][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.209][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.219][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.219][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.225][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.225][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.236][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.236][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.241][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.241][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.246][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.246][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.255][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.255][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.260][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.260][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.271][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.271][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.280][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.280][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.286][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.286][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.292][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.292][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.299][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.299][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.309][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.309][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.315][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.315][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.322][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.322][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.329][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.329][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.337][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.337][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.344][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.344][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.351][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.351][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.359][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.359][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.366][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.366][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.373][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.373][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.380][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.380][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.390][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.390][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.397][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.397][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.403][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.403][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.410][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.410][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.418][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.418][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.427][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.427][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.434][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.434][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.440][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.440][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.446][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.446][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.451][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.451][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.455][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.455][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.460][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.460][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.466][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.466][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.470][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.470][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.475][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.475][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.480][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.480][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.489][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.489][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.493][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.493][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.500][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.500][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.505][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.505][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.512][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.512][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.516][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.516][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.521][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.521][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.538][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.538][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.546][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.546][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.556][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.556][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.563][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.563][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.567][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.567][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.572][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.572][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.576][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.576][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.594][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.594][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.607][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.607][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.616][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.616][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.629][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.629][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.659][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.659][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.667][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.667][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.675][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.675][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.683][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.683][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.688][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.688][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.697][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.697][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.711][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.711][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.719][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.719][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.727][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.727][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.734][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.734][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.739][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.739][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.745][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.745][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.751][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.751][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.761][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.761][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.772][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.772][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.779][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.779][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.790][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.790][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.809][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.809][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.825][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.825][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.832][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.832][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.841][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.841][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.851][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.851][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.862][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.862][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.868][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.868][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.880][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.880][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.888][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.888][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.897][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.897][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.926][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.926][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.932][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.932][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.942][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.942][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.948][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.948][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.955][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.955][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.975][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.975][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.985][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.985][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:30:59.995][DBG] callback [2]data len[2097664].
+[2025-08-26 15:30:59.995][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.000][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.000][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.009][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.009][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.017][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.017][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.034][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.034][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.047][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.047][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.051][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.051][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.071][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.071][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.082][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.082][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.088][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.088][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.095][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.095][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.104][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.104][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.115][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.115][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.122][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.122][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.130][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.130][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.137][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.137][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.147][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.147][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.151][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.151][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.156][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.156][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.160][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.160][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.164][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.164][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.171][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.171][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.175][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.175][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.180][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.180][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.185][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.185][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.192][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.192][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.205][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.205][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.212][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.212][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.217][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.217][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.230][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.230][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.235][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.235][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.240][DBG] callback [2]data len[2097664].
+[2025-08-26 15:31:00.241][DBG] CLongConfigSessionEx::ConvertToAdapterWithCache<NET_DVR_ACS_EVENT_CFG> 512
+[2025-08-26 15:31:00.247][DBG] callback [0]data len[4].
+[2025-08-26 15:31:00.247][DBG] callback status[1000].
+[2025-08-26 15:31:00.247][INF] [CLongLinkCtrlPrivate::RecvThreadFunc] RecvThreadFunc EXIT, this=0xa9227044
+[2025-08-26 15:31:00.394][INF] [0]CLongConfigSession::Stop in
+[2025-08-26 17:28:16.299][INF] COM_Logout[0][1]
+[2025-08-26 17:28:16.301][DBG] CUserMgr::UnRegisterHeartProxy[0]
+[2025-08-26 17:28:16.328][INF] Private connect 192.168.0.164:8000 sock=2464 this=0xa5316494 cmd=0x10100 port=11286
+[2025-08-26 17:28:16.370][INF] CTransUnitMgr::UnloadTransUnitLib

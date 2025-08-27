@@ -1,0 +1,7 @@
+E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\obj\x64\Debug\ACSEventConsole.csproj.AssemblyReference.cache
+E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\obj\x64\Debug\ACSEventConsole.csproj.CoreCompileInputs.cache
+E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\bin\x64\Debug\ACSEventConsole.exe.config
+E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\bin\x64\Debug\ACSEventConsole.exe
+E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\bin\x64\Debug\ACSEventConsole.pdb
+E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\obj\x64\Debug\ACSEventConsole.exe
+E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\obj\x64\Debug\ACSEventConsole.pdb

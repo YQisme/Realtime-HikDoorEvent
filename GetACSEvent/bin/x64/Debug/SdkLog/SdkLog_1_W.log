@@ -1,0 +1,28 @@
+[2025-08-27 13:26:20.907][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2025-08-27 13:26:20.907][INF] The COM:Core ver is 6.1.9.48, 2023_04_10. Async:1.
+[2025-08-27 13:26:20.907][INF] This HCNetSDK ver is 6.1.9.48 Ver 2023_04_10.
+[2025-08-27 13:26:20.912][INF] Login dev 192.168.0.165:8000.
+[2025-08-27 13:26:20.912][INF] dwTotalNum[2048]
+[2025-08-27 13:26:21.005][INF] Private connect 192.168.0.165:8000 sock=1944 this=0x2e806b64 cmd=0x10000 port=2525
+[2025-08-27 13:26:21.005][INF] LogonDev1 in[192.168.0.165:8000]
+[2025-08-27 13:26:21.011][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/x64/Debug/libcrypto-1_1-x64.dll], hHandleRet[-490536960]
+[2025-08-27 13:26:21.011][DBG] Load [libcrypto-1_1-x64.dll] SUCC, Real Path[E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\bin\x64\Debug\libcrypto-1_1-x64.dll]
+[2025-08-27 13:26:21.013][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/x64/Debug/libssl-1_1-x64.dll], hHandleRet[1582039040]
+[2025-08-27 13:26:21.013][DBG] Load [libssl-1_1-x64.dll] SUCC, Real Path[E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\bin\x64\Debug\libssl-1_1-x64.dll]
+[2025-08-27 13:26:21.014][INF] SSLTRANSAPI::IsAllAPILoaded, SSL_library_init Unload
+[2025-08-27 13:26:21.014][INF] OpenSSL, Not All Function Loaded!
+[2025-08-27 13:26:21.014][INF] SSLTRANSAPI::PrintVersion, OpenSSL version info [OpenSSL 1.1.1l  24 Aug 2021]
+[2025-08-27 13:26:21.014][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[6], m_fnTLSServerMethod
+[2025-08-27 13:26:21.016][ERR] CSSLTrans::SSLTrans_CTX_Load_CA, invalid path[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/x64/Debug/cert/\]
+[2025-08-27 13:26:22.060][DBG] CComBase::Load, Load szDllPath[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/x64/Debug/HCNetSDKCom/HCAlarm.dll] SUCC
+[2025-08-27 13:26:22.060][INF] AbilityAnalyze---Init-- start
+[2025-08-27 13:26:22.061][ERR] AbilityAnalyze---open zip package error, package path E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/x64/Debug/LocalXml.zip
+[2025-08-27 13:26:22.061][INF] The COM:HCAlarm ver is 6.1.9.48, 2023_04_10.
+[2025-08-27 13:26:22.103][INF] Private connect 192.168.0.165:8000 sock=2008 this=0x2e806b64 cmd=0x111021 port=2527
+[2025-08-27 13:26:22.217][INF] Login dev 192.168.0.164:8000.
+[2025-08-27 13:26:22.242][INF] Private connect 192.168.0.164:8000 sock=1984 this=0x2e8072d0 cmd=0x10000 port=2528
+[2025-08-27 13:26:22.242][INF] LogonDev1 in[192.168.0.164:8000]
+[2025-08-27 13:26:22.290][INF] Private connect 192.168.0.164:8000 sock=2032 this=0x2e8072d0 cmd=0x111021 port=2529
+[2025-08-27 13:26:22.463][INF] Alarm[1] IP[192.168.0.164] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:26:22.735][INF] Alarm[0] IP[192.168.0.165] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:26:23.041][INF] Alarm[1] IP[192.168.0.164] data_len[1440] alarm_len[1432] status[400]

@@ -1,0 +1,48 @@
+[2025-08-27 13:31:08.301][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2025-08-27 13:31:08.301][INF] The COM:Core ver is 6.1.9.48, 2023_04_10. Async:1.
+[2025-08-27 13:31:08.301][INF] This HCNetSDK ver is 6.1.9.48 Ver 2023_04_10.
+[2025-08-27 13:31:08.306][INF] Login dev 192.168.0.165:8000.
+[2025-08-27 13:31:08.306][INF] dwTotalNum[2048]
+[2025-08-27 13:31:08.335][INF] Private connect 192.168.0.165:8000 sock=1212 this=0x2dbe6fd4 cmd=0x10000 port=2823
+[2025-08-27 13:31:08.335][INF] LogonDev1 in[192.168.0.165:8000]
+[2025-08-27 13:31:08.336][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/x64/Release/libcrypto-1_1-x64.dll], hHandleRet[842006528]
+[2025-08-27 13:31:08.336][DBG] Load [libcrypto-1_1-x64.dll] SUCC, Real Path[E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\bin\x64\Release\libcrypto-1_1-x64.dll]
+[2025-08-27 13:31:08.337][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/x64/Release/libssl-1_1-x64.dll], hHandleRet[1395785728]
+[2025-08-27 13:31:08.337][DBG] Load [libssl-1_1-x64.dll] SUCC, Real Path[E:\Desktop\test\a\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\3- C# 开发示例\7-明眸门禁相关功能\2-以人为中心(优化接口)\GetACSEvent\GetACSEvent\bin\x64\Release\libssl-1_1-x64.dll]
+[2025-08-27 13:31:08.337][INF] SSLTRANSAPI::IsAllAPILoaded, SSL_library_init Unload
+[2025-08-27 13:31:08.337][INF] OpenSSL, Not All Function Loaded!
+[2025-08-27 13:31:08.337][INF] SSLTRANSAPI::PrintVersion, OpenSSL version info [OpenSSL 1.1.1l  24 Aug 2021]
+[2025-08-27 13:31:08.337][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[6], m_fnTLSServerMethod
+[2025-08-27 13:31:08.340][ERR] CSSLTrans::SSLTrans_CTX_Load_CA, invalid path[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/x64/Release/cert/\]
+[2025-08-27 13:31:08.907][DBG] CComBase::Load, Load szDllPath[E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/x64/Release/HCNetSDKCom/HCAlarm.dll] SUCC
+[2025-08-27 13:31:08.907][INF] AbilityAnalyze---Init-- start
+[2025-08-27 13:31:08.908][ERR] AbilityAnalyze---open zip package error, package path E:/Desktop/test/a/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/3- C# 开发示例/7-明眸门禁相关功能/2-以人为中心(优化接口)/GetACSEvent/GetACSEvent/bin/x64/Release/LocalXml.zip
+[2025-08-27 13:31:08.908][INF] The COM:HCAlarm ver is 6.1.9.48, 2023_04_10.
+[2025-08-27 13:31:08.944][INF] Private connect 192.168.0.165:8000 sock=1984 this=0x2dbe6fd4 cmd=0x111021 port=2825
+[2025-08-27 13:31:08.959][INF] Login dev 192.168.0.164:8000.
+[2025-08-27 13:31:08.989][INF] Private connect 192.168.0.164:8000 sock=2000 this=0x2dbe7740 cmd=0x10000 port=2826
+[2025-08-27 13:31:08.989][INF] LogonDev1 in[192.168.0.164:8000]
+[2025-08-27 13:31:09.034][INF] Private connect 192.168.0.164:8000 sock=2008 this=0x2dbe7740 cmd=0x111021 port=2827
+[2025-08-27 13:31:09.086][INF] Alarm[1] IP[192.168.0.164] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:31:09.476][INF] Alarm[0] IP[192.168.0.165] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:31:09.655][INF] Alarm[1] IP[192.168.0.164] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:32:00.901][INF] Alarm[0] IP[192.168.0.165] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:32:01.500][INF] Alarm[0] IP[192.168.0.165] data_len[48988] alarm_len[48968] status[400]
+[2025-08-27 13:32:03.655][INF] Alarm[0] IP[192.168.0.165] data_len[51319] alarm_len[51299] status[400]
+[2025-08-27 13:32:08.260][INF] Alarm[0] IP[192.168.0.165] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:32:11.393][INF] Alarm[0] IP[192.168.0.165] data_len[50081] alarm_len[50061] status[400]
+[2025-08-27 13:32:11.993][INF] Alarm[0] IP[192.168.0.165] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:32:14.598][INF] Alarm[0] IP[192.168.0.165] data_len[53533] alarm_len[53513] status[400]
+[2025-08-27 13:32:19.199][INF] Alarm[0] IP[192.168.0.165] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:32:28.335][INF] Alarm[0] IP[192.168.0.165] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:33:33.381][INF] Alarm[0] IP[192.168.0.165] data_len[45104] alarm_len[45084] status[400]
+[2025-08-27 13:33:33.954][INF] Alarm[0] IP[192.168.0.165] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:33:38.047][INF] Alarm[0] IP[192.168.0.165] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:33:39.676][INF] Alarm[0] IP[192.168.0.165] data_len[51466] alarm_len[51446] status[400]
+[2025-08-27 13:33:40.258][INF] Alarm[0] IP[192.168.0.165] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:33:44.359][INF] Alarm[0] IP[192.168.0.165] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:34:00.354][INF] Alarm[1] IP[192.168.0.164] data_len[87611] alarm_len[87591] status[400]
+[2025-08-27 13:34:00.945][INF] Alarm[1] IP[192.168.0.164] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:34:05.532][INF] Alarm[1] IP[192.168.0.164] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:37:16.350][INF] Alarm[0] IP[192.168.0.165] data_len[1440] alarm_len[1432] status[400]
+[2025-08-27 13:37:17.358][INF] Alarm[1] IP[192.168.0.164] data_len[1440] alarm_len[1432] status[400]

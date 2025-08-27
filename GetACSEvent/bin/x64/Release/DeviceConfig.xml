@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Devices>
+  <Device>
+    <IP>192.168.0.165</IP>
+    <UserName>admin</UserName>
+    <Password>Scyzkj2025</Password>
+    <Port>8000</Port>
+    <Enabled>true</Enabled>
+    <Remark>来自API</Remark>
+    <DeviceID>8182dc32123e42dfbdcaea7d6a3504ec</DeviceID>
+    <AreaID>dbb4f1b8-ebb7-4fca-b7be-15d617997ef3</AreaID>
+    <DeviceName>门禁165</DeviceName>
+    <Name>门禁165</Name>
+  </Device>
+  <Device>
+    <IP>192.168.0.164</IP>
+    <UserName>admin</UserName>
+    <Password>scyzkj123456</Password>
+    <Port>8000</Port>
+    <Enabled>true</Enabled>
+    <Remark>来自API</Remark>
+    <DeviceID>8f283fe3ca6947fdaba16db6ef3a7914</DeviceID>
+    <AreaID>root000000</AreaID>
+    <DeviceName>测试门禁164</DeviceName>
+    <Name>测试门禁164</Name>
+  </Device>
+</Devices>

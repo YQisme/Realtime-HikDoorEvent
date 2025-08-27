@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Devices>
+  <Device>
+    <IP>192.168.0.164</IP>
+    <UserName>admin</UserName>
+    <Password>scyzkj123456</Password>
+    <Port>8000</Port>
+    <Enabled>true</Enabled>
+    <Name>前门门禁</Name>
+    <Remark>位于大厅前门的门禁设备</Remark>
+    <DeviceID>8f283fe3ca6947fdaba16db6ef3a7914</DeviceID>
+    <AreaID>root000000</AreaID>
+    <DeviceName>测试门禁164</DeviceName>
+  </Device>
+
+  <Device>
+    <IP>192.168.0.165</IP>
+    <UserName>admin</UserName>
+    <Password>Scyzkj2025</Password>
+    <Port>8000</Port>
+    <Enabled>true</Enabled>
+    <Name>后门门禁</Name>
+    <Remark>位于大厅后门的门禁设备</Remark>
+    <DeviceID>7e283fe3ca6947fdaba16db6ef3a7915</DeviceID>
+    <AreaID>root000000</AreaID>
+    <DeviceName>测试门禁165</DeviceName>
+  </Device>
+  <!-- <Device>
+    <IP>192.168.0.166</IP>
+    <UserName>admin</UserName>
+    <Password>password</Password>
+    <Port>8000</Port>
+    <Enabled>false</Enabled>
+    <Name>侧门门禁</Name>
+    <Remark>位于侧门的门禁设备，暂时禁用</Remark>
+    <DeviceID>6d283fe3ca6947fdaba16db6ef3a7916</DeviceID>
+    <AreaID>root000000</AreaID>
+    <DeviceName>测试门禁166</DeviceName>
+  </Device>
+  -->
+</Devices>
